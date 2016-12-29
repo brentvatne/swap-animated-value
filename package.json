@@ -1,0 +1,27 @@
+{
+	"name": "FromMaster",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"@exponent/ex-navigation": "^2.7.0",
+		"@exponent/react-native-action-sheet": "^0.3.0",
+		"@exponent/react-native-fade-in-image": "^1.1.1",
+		"@exponent/react-native-touchable-native-feedback-safe": "^1.1.1",
+		"babel-preset-react-native-stage-0": "^1.0.1",
+		"react": "~15.4.0-rc.4",
+		"react-native": "facebook/react-native#master"
+	},
+	"devDependencies": {
+		"babel-jest": "18.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "18.1.0",
+		"react-test-renderer": "~15.4.0-rc.4"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
