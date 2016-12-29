@@ -3,6 +3,10 @@ import { View } from 'react-native';
 import ProjectCard from './components/ProjectCard';
 
 export default class FakeCards extends React.Component {
+  shouldComponentUpdate() {
+    return false;
+  }
+
   render() {
     return (
       <View>
